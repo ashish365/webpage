@@ -104,7 +104,7 @@ margin: 10px;
 `;
 
 const Button = styled.button`
-  margin: 13px;
+  margin: 12px;
   text-align: center;
  
 `;
