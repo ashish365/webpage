@@ -79,21 +79,24 @@ const Image = styled.img`
   
 height: 20%;
 width: 20%;
-margin: 8px;
+margin: 10px;
 
 @media(max-width:400px){
   width: 90%;
+  height: 10%;
   class: center;
 }
 
 @media(max-width:768px){
   width: 90%;
+  height: 50%;
   class: center;
 }
 
 
 @media(max-width:1080px){
   width: 90%;
+  height: 50%;
   class: center;
 }
     
@@ -101,7 +104,7 @@ margin: 8px;
 `;
 
 const Button = styled.button`
-  margin: 20px;
+  margin: 10px;
   text-align: center;
  
 `;
