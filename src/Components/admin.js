@@ -13,8 +13,28 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-    
+  
+
+@media(max-width:400px){
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }    
+  
+  @media(max-width:760px){
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }    
+  
+  @media(max-width:1080px){
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }    
   
 
 `;
@@ -25,31 +45,32 @@ const Wrapper = styled.div`
 @media(max-width:400px){
  flex-direction: row;
 }
-
-@media(max-width:768px){
-  
-flex-direction: row;
-
+  @media(max-width:760px){
+ flex-direction: row;
 }
-
-  
+@media(max-width:1080px){
+ flex-direction: row;
+}
 `;
 
 const Heading = styled.p`
 color: red;
-margin-left: 550px;
+margin-left: 50px;
 
 @media(max-width:400px){
    color:red;
-   margin-left:200px;
+   margin-left:50px;
+}
+@media(max-width:760px){
+ color:red;
+   margin-left:50px;
 }
 
-@media(max-width:768px){
-  color: red;
-margin-left: 800px;
-
-
+@media(max-width:1080px){
+ color:red;
+   margin-left:50px;
 }
+
 
   
 `;
@@ -64,18 +85,25 @@ margin: 8px;
   width: 90%;
   class: center;
 }
-    
 
 @media(max-width:768px){
   width: 90%;
   class: center;
 }
 
+
+@media(max-width:1080px){
+  width: 90%;
+  class: center;
+}
+    
+
 `;
 
 const Button = styled.button`
   margin: 20px;
-  margin-left: 1400px;
+  text-align: center;
+ 
 `;
 
 
@@ -107,9 +135,11 @@ export default class Admin extends Component{
 
          <Content>
          <Wrapper>
-           <Heading>Welcome to the Admin page.You are now logged in!!</Heading>
+           <Heading>You are now logged in!!</Heading>
            <Button>
+           <div>
            <Link to="/logout">Logout</Link>
+           </div>
            </Button>
          </Wrapper>
 
