@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/webpage/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/webpage/static/js/main.329a59be.chunk.js",
+    "main.js.map": "/webpage/static/js/main.329a59be.chunk.js.map",
+    "runtime-main.js": "/webpage/static/js/runtime-main.adf0b9a5.js",
+    "runtime-main.js.map": "/webpage/static/js/runtime-main.adf0b9a5.js.map",
+    "static/js/2.0d5afb27.chunk.js": "/webpage/static/js/2.0d5afb27.chunk.js",
+    "static/js/2.0d5afb27.chunk.js.map": "/webpage/static/js/2.0d5afb27.chunk.js.map",
+    "index.html": "/webpage/index.html",
+    "precache-manifest.04db81953dba68cd8a8e9bb6d5e79cae.js": "/webpage/precache-manifest.04db81953dba68cd8a8e9bb6d5e79cae.js",
+    "service-worker.js": "/webpage/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/webpage/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.0d5afb27.chunk.js.LICENSE.txt": "/webpage/static/js/2.0d5afb27.chunk.js.LICENSE.txt",
+    "static/media/iitg1.jpg": "/webpage/static/media/iitg1.ed68be50.jpg",
+    "static/media/lionel-messi.jpg": "/webpage/static/media/lionel-messi.ac4e7772.jpg",
+    "static/media/ronaldo.jpeg": "/webpage/static/media/ronaldo.0610db91.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adf0b9a5.js",
+    "static/js/2.0d5afb27.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.329a59be.chunk.js"
+  ]
+}
